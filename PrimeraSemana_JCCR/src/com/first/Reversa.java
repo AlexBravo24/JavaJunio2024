@@ -1,6 +1,6 @@
 package com.first;
 
-public class Revsersa {
+public class Reversa {
 
 	
 	public static String reverse(String texto) {
