@@ -2,7 +2,7 @@ package com.first;
 
 import java.util.ArrayList;
 
-public class Revsersa {
+public class Reversa {
 
 	
 	public static String reverse(String texto) {
