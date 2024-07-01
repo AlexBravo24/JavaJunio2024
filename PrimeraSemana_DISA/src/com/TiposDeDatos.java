@@ -69,7 +69,7 @@ public class TiposDeDatos {
 		//Ejemplo de tipos de dato Wrapper
 		Byte numero11 = 127;
 		
-		numero11.floatValue(); //Si tuvieramos que convertir el calor entero a decimal, ocupamos este método como ejemplo
+		numero11.floatValue(); //Si tuvieramos que convertir el valor entero a decimal, ocupamos este método como ejemplo
 		
 		//Darle salida a nuestros datos en consola o ejecutar el método main 
 		System.out.println("Hola mundo");

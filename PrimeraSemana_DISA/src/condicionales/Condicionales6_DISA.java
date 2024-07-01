@@ -1,5 +1,7 @@
 package condicionales;
 
+import java.util.Scanner;
+
 public class Condicionales6_DISA {
 
 	public static void main(String[] args) {
@@ -12,7 +14,32 @@ public class Condicionales6_DISA {
 		 * Realiza un algoritmo que permita determinar el pago a la compañía de autobuses y 
 		 * lo que debe pagar cada alumno por el viaje.
 		 */
-		
+		Scanner sc = new Scanner (System.in);
+		double costoAlumno, numeroAlumnos, pagoServicio;
+		System.out.println("Ingresa el número de alumnos:");
+		numeroAlumnos=sc.nextDouble();
+		costoAlumno=0;pagoServicio=0;
+		if(numeroAlumnos>=0) 
+		{
+			costoAlumno=65;
+			pagoServicio=costoAlumno*numeroAlumnos;
+		}
+		if (numeroAlumnos>=50 && numeroAlumnos<100) 
+		{
+			costoAlumno=70;
+			pagoServicio=costoAlumno*numeroAlumnos;
+		}
+		if (numeroAlumnos>=30 && numeroAlumnos<50) {
+			costoAlumno=95;
+			pagoServicio=costoAlumno*numeroAlumnos;
+		}
+		if(numeroAlumnos>=30 && numeroAlumnos<50) 
+		{
+			costoAlumno=4000;
+			pagoServicio=costoAlumno/numeroAlumnos;
+		}
+		System.out.println("Valor de costo por alumno: " + costoAlumno);
+		System.out.println("Valor de pago por el servicio: " + pagoServicio);
 	}
 		
 }
