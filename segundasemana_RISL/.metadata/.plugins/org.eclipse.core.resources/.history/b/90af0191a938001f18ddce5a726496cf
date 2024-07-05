@@ -1,0 +1,54 @@
+package com;
+
+public class Zoologico extends Animal {
+		
+	
+		private String TotalEspecie;
+		private String Habitat;
+		private String Especie;
+		
+		public Zoologico () {
+			
+		}
+
+		public Zoologico(String nombre, String genero, String alimentación, int edad, String color, String totalEspecie,
+				String habitat, String especie) {
+			super(nombre, genero, alimentación, edad, color);
+			TotalEspecie = totalEspecie;
+			Habitat = habitat;
+			Especie = especie;
+		}
+
+		public String getTotalEspecie() {
+			return TotalEspecie;
+		}
+
+		public void setTotalEspecie(String totalEspecie) {
+			TotalEspecie = totalEspecie;
+		}
+
+		public String getHabitat() {
+			return Habitat;
+		}
+
+		public void setHabitat(String habitat) {
+			Habitat = habitat;
+		}
+
+		public String getEspecie() {
+			return Especie;
+		}
+
+		public void setEspecie(String especie) {
+			Especie = especie;
+		}
+
+		@Override
+		public String toString() {
+			return "Zoologico [TotalEspecie=" + TotalEspecie + ", Habitat=" + Habitat + ", Especie=" + Especie
+					+ ", toString()=" + super.toString() + "]";
+		}
+		
+		
+}
+	

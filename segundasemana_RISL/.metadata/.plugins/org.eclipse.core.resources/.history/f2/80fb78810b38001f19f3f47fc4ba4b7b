@@ -1,0 +1,19 @@
+package com;
+
+public class Persona {
+	
+	//Esta clase servira como molde para crear el objeto persona
+//abstraccion
+	// proceso o pilar de la pOO que nos ayuda a definir los atributos de nuestro 
+	//objeto
+	
+	// modificadores de acceso permiten proteger los atributos de usos
+	//no autorizados 
+	
+	private string nombre;
+	private string genero;
+	private int edad;
+	private double peso;
+	private double altura;
+	
+	
