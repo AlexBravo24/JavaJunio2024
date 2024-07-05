@@ -1,0 +1,11 @@
+package com;
+
+
+
+	//La herencia es ptro pilar de la programacion orientada a objetos y se realuiza
+	//con la palabra reservada extends
+	
+	public class Empleado extends Persona {
+		
+	}
+}
