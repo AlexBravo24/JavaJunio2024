@@ -1,0 +1,75 @@
+package com;
+
+import java.util.Scanner;
+
+public class Cientifica extends Calculadora {
+
+	
+	@Override
+	public void sumar() {
+		int a;
+		int b;
+		Scanner entrada= new Scanner (System.in);
+		
+		System.out.println("inserta un numero");
+		a=entrada.nextInt();
+	
+		
+		System.out.println("inserta otro numero");
+		b=entrada.nextInt();
+		System.out.println("EL resultado de la suma es: "+(a+b));
+		
+	}
+
+	@Override
+	public void restar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void multiplicar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dividir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

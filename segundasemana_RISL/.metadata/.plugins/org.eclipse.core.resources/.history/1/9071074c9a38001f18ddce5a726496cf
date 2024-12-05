@@ -1,0 +1,36 @@
+package com;
+
+public class principal {
+
+	public static void main(String[] args) {
+		// En el concepto de composicion tenemos objetos pequeños
+		//que forman parte de objetos mas grandes 
+		
+		procesador amd=new procesador("AMD", "Rizen 5", 4.5);
+		
+		Almacenamiento adata= new Almacenamiento("Adata", "A5",480);
+		
+		Ram kingston= new Ram("Kingston","DDR4",8);
+		
+		Laptop Lenovo= new Laptop("lenovo","L15", "negro",amd , adata, kingston);
+		
+		System.out.println(Lenovo);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

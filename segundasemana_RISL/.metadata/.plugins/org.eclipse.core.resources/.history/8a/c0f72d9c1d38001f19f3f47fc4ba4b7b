@@ -1,0 +1,30 @@
+package com;
+
+public class principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//una vez creados los atributos, podemos crear un objeto
+		
+		Persona persona1= new persona ();
+		
+		//hasta este momentos yo puedo asignar un nombre
+		//a la persona a traves de sus atributos llamandolos 
+		//desde aqui
+		
+	//probar a crear una nueva persona pero con el constructor con todos los atributos
+	
+	Persona persona2 = new Persona("rosa","femenino",23,62.5,1.60);
+	
+	//podemos asignarle un nombre o demas valores a personas, gracias a los metodos 
+	//getters y setters 
+	persona1.setNombre("ana");
+	
+	//ejemplo de la persona 1 en consola
+	
+	System.out.println(persona2.getNombre());
+	
+	}
+}
+
+

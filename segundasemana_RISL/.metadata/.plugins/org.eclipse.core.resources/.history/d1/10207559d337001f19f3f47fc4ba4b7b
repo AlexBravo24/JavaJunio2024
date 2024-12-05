@@ -1,0 +1,51 @@
+package com;
+
+public class Persona {
+	
+	//Esta clase servira como molde para crear el objeto persona
+//abstraccion
+	// proceso o pilar de la pOO que nos ayuda a definir los atributos de nuestro 
+	//objeto
+	
+	// modificadores de acceso permiten proteger los atributos de usos
+	//no autorizados 
+	
+	private string nombre;
+	private string genero;
+	private int edad;
+	private double peso;
+	private double altura;
+	
+	  
+	 // despues de declarar atributos y haberles colocado modificadores
+	 // de acceso, existen metodos que nos permitiran construir nuestros objetos 
+	 
+	 //metodos constructores 
+	 //Metodo constructor vacio- nos permite iniciar un objeto vacio y posteriormente poder asignarles 
+	 //valor a los atributos 
+	 public persona() {
+		 
+	 }
+		//puedo generar tantos constructores como necesite
+	public Persona(string nombre, string genero, int edad, double peso, double altura) {
+		super();
+		this.nombre = nombre;
+		this.genero = genero;
+		this.edad = edad;
+		this.peso = peso;
+		this.altura = altura;
+	}
+		public persona (string nombre) {
+			super();
+			this.nombre=nombre;
+			
+			//metodos guetters y setters 
+			//metodo get- devuelve un valor 
+			//metodo set-
+			 
+	}
+		@Override
+		public String toString() {
+			return "Persona [edad=" + edad + ", peso=" + peso + ", altura=" + altura + "]";
+		}
+}

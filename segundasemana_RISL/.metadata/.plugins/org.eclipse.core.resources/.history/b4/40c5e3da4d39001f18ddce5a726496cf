@@ -1,0 +1,38 @@
+package com;
+
+public class principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+Persona juan= new Persona("Juan", "Masculino", 25);
+		
+		//insertar un nuevo empleado 
+		 
+		Empleado Empleado1=new Empleado("Pedro", "masculino", 33, "PDTR12345", 6000, "vespertino");
+		
+		System.out.println(juan);
+		System.out.println(Empleado1);
+		
+		
+		//Crear una clase padre que nos permita heredar estas propiedades
+		// a una clase hija.
+		
+		Animal animal1=new Animal("perro", "macho","omnivoro",10,"blanco con negro");
+		
+	Zoologico Zoologicovida=new Zoologico("jaguar","macho","omniviro",5,"blanco",10, "selva","mamifero");
+		
+		//insertar un animal del zoologic
+		 
+				
+
+		
+		System.out.println(Zoologicovida);
+		
+		System.out.println(animal1);
+		
+		
+	}
+
+}

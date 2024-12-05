@@ -1,0 +1,30 @@
+package com;
+
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// API stream es una funcionalidad a partir de java 8
+		//que nos permite gestionar de forma mas rapida
+		//e imperativa la informacion que tengamos 
+		//en nuestras colecciones de datos
+		//filtrar nuestra informacion
+		
+//Ejemplo del uso de Stream
+		
+		Stream<String> nombres= Stream.of("Carlos, Frida, Alex, Rosa,Alberto,");
+	 .filter(item-> item.contains("i"));
+	 
+	 //una vez filtramos la informacion la llevo hacia una lista
+	 List<String>names =nombres.collect(Collectors.toList());
+
+	 //mostrar los resultados en consola
+	 System.out.println(names);
+	 
+		
+		
+		
+		
+	}}

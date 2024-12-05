@@ -1,0 +1,86 @@
+package com;
+
+public class Cientifica extends Calculadora {
+
+	@Override
+	public void sumar(int a,int b) {
+		System.out.println("la suma es: "+ (a+b));
+		
+	}
+
+	@Override
+	public void restar(int a, int b) {
+		System.out.println("el resultado de la resta es: "+ (a-b));
+		
+	}
+
+	@Override
+	public void multiplicar(int a, int b) {
+		System.out.println("el resultado de la multiplicación es: "+ (a*b));
+		
+	}
+
+	@Override
+	public void dividir(int a, int b) {
+		System.out.println("el resultado de la division es: "+ (a/b));
+		
+	}
+
+	@Override
+	public void sumar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void restar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void multiplicar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dividir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
